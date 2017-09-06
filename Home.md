@@ -13,7 +13,7 @@
 2. Publish the image in the Container Registry, in this case ACR:
    * Create one ACR on Azure. Take note of the address (e.g. myprivateacr.azurecr.io) and the user and password of the registry.
    * Login to the container registry. From a Powershell execute ```docker login -u dockerUser -p dockerPassword myprivateacr.azurecr.io``` using the values of your ACR
-   * Add to the image our ACR address as a prefix to indicate where it must be published. Execute ```docker tag eshopmodernizedmvc myprivateacr.azurecr.io/eshopmodernizedmv``` to mark it for publishing in the ACR. After this if you execute ```docker images``` this new _myprivateacr.azurecr.io/eshopmodernizedmv_ must appear in the list of images.
+   * Add to the image our ACR address as a prefix to indicate where it must be published. Execute ```docker tag eshopmodernizedmvc myprivateacr.azurecr.io/eshopmodernizedmv``` to mark it for publishing in the ACR. After this if you execute ```docker images``` this new _myprivateacr.azurecr.io/eshop/modernizedmv_ must appear in the list of images.
    * Publish the tagged image executing ```docker push myprivateacr.azurecr.io/eshopmodernizedmv```
    * Note: to publish in Docker hub instead of ACR, the login step is the same (with Docker Hub credentials), and skip the tag step because by default docker will publish to Docker Hub.
 3. Run the image in the VM:
