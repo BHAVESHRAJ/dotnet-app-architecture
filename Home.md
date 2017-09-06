@@ -24,6 +24,7 @@
 
           > image:myprivateacr.azurecr.io/eshopmodernizedmvc
  
+   * If your image is in a private registry, login first. For ACR would be to execute in the VM ```docker login -u dockerUser -p dockerPassword myprivateacr.azurecr.io```.
    * Run ```docker-compose -f .\docker-compose.nobuild.yml -f .\docker-compose.override.yml up```. The first time the images will be downloaded from the registry, so this step can take some minutes the initial execution.
    * After this open the browser and write http://{ip of the VM}:5114 and the app should open.
  
