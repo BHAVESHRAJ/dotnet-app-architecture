@@ -19,6 +19,10 @@ This environment variables must be caught in the application and used instead of
    * Note: to publish in Docker hub instead of ACR, the login step is the same (with Docker Hub credentials), and skip the tag step because by default docker will publish to Docker Hub.
 3. Run the image in the VM:
    * Create one VM in Azure. Select Windows Server 2016 Datacenter with containers. This way Docker is already installed and configured.
+   * Install docker-compose. Following this [link](https://docs.docker.com/compose/install/#install-compose). Basically execute with admin rights from Powershell, with the last version, this command:  
+
+      ```Invoke-WebRequest "https://github.com/docker/compose/releases/download/$dockerComposeVersion/docker-compose-Windows-x86_64.exe" -UseBasicParsing -OutFile $Env:ProgramFiles\docker\docker-compose.exe```
+
    * Copy the files _docker-compose.nobuild.yml_, _docker-compose.override.yml_ and _.env_ to the VM in a folder.
    * Edit the .env to put the IP of the VM in the variable.
    * Edit the _docker-compose.nobuild_ file to add the prefix of your ACR eshop/modernizedmvc:
