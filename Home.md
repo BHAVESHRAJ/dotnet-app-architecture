@@ -13,10 +13,10 @@ Check the multiple posts at the Wiki on the right side in order to know how to c
     . Service Fabric orchestrators cluster
 
 ## Future Roadmap
-    - Include procedures on how to create CI/CD pipelines in VSTS (Visual Studio Team Services) with releases deploying to VM (Windows Server Containers Docker Host), ACS-Kubernetes and Service Fabric
-    - User of Azure Active Directory for authentication and authorization
-    - Uploading the Product Catalog images to Azure Storage Blobs
-    - Further Hybrid-cloud, networking and security considerations
+- Include procedures on how to create CI/CD pipelines in VSTS (Visual Studio Team Services) with releases deploying to VM (Windows Server Containers Docker Host), ACS-Kubernetes and Service Fabric
+- User of Azure Active Directory for authentication and authorization
+- Uploading the Product Catalog images to Azure Storage Blobs
+- Further Hybrid-cloud, networking and security considerations
 
 ## FEEDBACK
 Feel free to submit your issues plus suggest possible features to be added to the sample applications at the ISSUES section of this current GitHub repo.
