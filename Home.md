@@ -3,10 +3,13 @@
 ## Documentation
 Check the multiple posts at the Wiki on the right side in order to know how to containerized the base apps or how to deploy to Azure (Windows 1026 VM, Kubernetes-ACS or Service Fabric) the already containerized version of the apps.
 
+Due to its different nature, posts about modernizing MVC and Webforms are numbered from 01 up to 19. Posts about modernizing Winforms & WCF are numbered starting with 20.
+
 ## Current version features
 
 - ASP.NET MVC app containerized with Windows Containers
 - ASP.NET WebForms app containerized with Windows Containers
+- Winforms accessing WCF containerized with Windows Containers
 - Deployment metadata and detailed procedures to deploy to the following environments:
     . Regular Windows Server 2016 VM (Virtual MAchine)
     . ACS-Kubernetes orchestrator cluster
