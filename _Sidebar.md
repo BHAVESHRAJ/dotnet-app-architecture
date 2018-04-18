@@ -3,7 +3,6 @@
   * [How to containerize the .NET Framework web apps with Windows Containers and Docker](./02.-How-to-containerize-the-.NET-Framework-web-apps-with-Windows-Containers-and-Docker)
   * [Publishing your Windows Container images into a Docker Registry](./03.-Publishing-your-Windows-Container-images-into-a-Docker-Registry)
   * [Deploying into local Kubernetes in Windows 10 and Docker for Windows development environment](./04.-Deploying-into-local-Kubernetes-in-Windows-10-and-Docker-for-Windows-development-environment)
-  * [Deploying to Service Fabric mesh (codename SeaBreeze)](./04.-Deploying-to-Service-Fabric-mesh-(codename-SeaBreeze))
   * [How to deploy your Windows Containers based apps into Kubernetes in Azure Container Service (Including CI CD)](./04.-How-to-deploy-your-Windows-Containers-based-apps-into-Kubernetes-in-Azure-Container-Service-(Including-CI-CD))
   * [Deploying the Apps to ACI (Azure Container Instances)](./05.-Deploying-the-Apps-to-ACI-(Azure-Container-Instances))
   * [How to deploy your Windows Containers based apps into Azure Service Fabric (Including CI CD)](./05.-How-to-deploy-your-Windows-Containers-based-apps-into-Azure-Service-Fabric-(Including-CI-CD))
