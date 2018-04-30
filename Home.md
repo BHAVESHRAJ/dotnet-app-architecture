@@ -1,7 +1,7 @@
 # eShopModernized (MVC, Web Forms apps and N-Tier app (WCF service) deployed as Windows Containers into Azure)
 
 ## Documentation
-Check the multiple posts at the Wiki on the right side in order to know how to containerized the base apps or how to deploy to Azure (Windows 1026 VM, Kubernetes-ACS or Service Fabric) the already containerized version of the apps.
+Check the multiple posts at the Wiki on the right side in order to know how to containerized the base apps or how to deploy to Azure (multiple choices for deployment environments) the already containerized version of the apps.
 
 ## Current version features
 
