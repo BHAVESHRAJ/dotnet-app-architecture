@@ -1,5 +1,5 @@
 * [[Home|home]]
-* [MVC & Webforms Samples](./01.-Tour-on-eShopModernizing-apps-implementation-code)
+* [MVC & WebForms Samples](./01.-Tour-on-eShopModernizing-apps-implementation-code)
   * [How to containerize the .NET Framework web apps with Windows Containers and Docker](./02.-How-to-containerize-the-.NET-Framework-web-apps-with-Windows-Containers-and-Docker)
   * [Publishing your Windows Container images into a Docker Registry](./03.-Publishing-your-Windows-Container-images-into-a-Docker-Registry)
   * [Deploying into local Kubernetes in Windows 10 and Docker for Windows development environment](./04.-Deploying-into-local-Kubernetes-in-Windows-10-and-Docker-for-Windows-development-environment)
