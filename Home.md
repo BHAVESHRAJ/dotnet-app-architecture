@@ -9,10 +9,10 @@ Check the multiple posts at the Wiki on the right side in order to know how to c
 - ASP.NET WebForms app containerized with Windows Containers
 - WinForms accessing a containerized WCF service with Windows Containers
 - Deployment metadata and detailed procedures to deploy to the following environments:
-1.         Regular Windows Server 2016 VM (Virtual Machine)
-1.         Azure Container Instances (ACI)
-1.         Service Fabric orchestrator cluster
-1.         ACS-Kubernetes orchestrator cluster
+  1. Regular Windows Server 2016 VM (Virtual Machine)
+  1. Azure Container Instances (ACI)
+  1. Service Fabric orchestrator cluster
+  1. ACS-Kubernetes orchestrator cluster
 
 - Use of Azure Active Directory for authentication and authorization
 - Uploading the Product Catalog images to Azure Storage Blobs
